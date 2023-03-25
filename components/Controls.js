@@ -1,4 +1,4 @@
-import Bookmark from "./icon/bookmark";
+import Bookmark from "./icon/Bookmark";
 import Loop from "./icon/Loop";
 import Next from "./icon/Next";
 import Pause from "./icon/Pause";
