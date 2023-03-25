@@ -8,9 +8,9 @@ import Suffle from "./icon/Suffle";
 
 export default function Controls() {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between mt-2 xl:mt-0">
       <Bookmark />
-      <div className="flex items-center space-x-6">
+      <div className="flex items-center space-x-3 xl:space-x-6">
         <Suffle />
         <Previous />
         <Pause />
