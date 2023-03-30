@@ -214,7 +214,7 @@ export default function Preview() {
               {`)`}
             </p>
             <h3 className="sm:text-[32px] text-xl sm:mb-6 sm:mt-2">{title}</h3>
-            <div className="hidden overflow-hidden sm:block">
+            <div className="hidden sm:block">
               <Progress
                 value={slider}
                 onChange={(e) => {
