@@ -1,0 +1,47 @@
+[
+  {
+    "src": "/seen-it-all-before.mp3",
+    "title": "Seen It All Before",
+    "albumName": "Sempiternal",
+    "albumImg": "/bmth.jpg",
+    "artist": "Bring Me The Horizon",
+    "year": "2013",
+    "dur": "4:08"
+  },
+  {
+    "src": "/about-you.mp3",
+    "title": "About You",
+    "albumName": "Being Funny In A Foreign Language",
+    "albumImg": "/the-1975.jpg",
+    "artist": "The 1975",
+    "year": "2022",
+    "dur": "5:27"
+  },
+  {
+    "src": "/hoshikuzu-venus.mp3",
+    "title": "Hoshikuzu Venus",
+    "albumName": "Sleppless Nights",
+    "albumImg": "/sleepless-nights.jpg",
+    "artist": "Aimer",
+    "year": "2012",
+    "dur": "4:12"
+  },
+  {
+    "src": "/amin-paling-serius.mp3",
+    "title": "Amin Paling Serius",
+    "albumName": "Amin Paling Serius",
+    "albumImg": "/amin-paling-serius.jpg",
+    "artist": "Sal Priadi & Nadin Amizah",
+    "year": "2019",
+    "dur": "11:14"
+  },
+  {
+    "src": "/dizzy-on-the-comedown.mp3",
+    "title": "Dizzy On The Comedown",
+    "albumName": "Peripheral Vision",
+    "albumImg": "/peripheral_version.jpg",
+    "artist": "Turnover",
+    "year": "2015",
+    "dur": "4:19"
+  }
+]

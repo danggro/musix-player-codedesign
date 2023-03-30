@@ -14,6 +14,7 @@
 }
 
 .bg-blur {
+  /* background: rgba(255, 255, 255, 0.01); */
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
@@ -21,4 +22,12 @@
 
 .shadow-box {
   filter: drop-shadow(0px 15px 30px rgba(0, 0, 0, 0.3));
+}
+
+@layer base {
+  :root {
+    --colorPrimary: #000;
+    --colorSecondary: 111 114 185;
+    /* ... */
+  }
 }

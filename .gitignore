@@ -11,7 +11,9 @@
 # next.js
 /.next/
 /out/
-
+/pages/cobacoba
+/pages/coba2
+/components/cobacoba
 # production
 /build
 

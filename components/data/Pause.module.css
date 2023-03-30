@@ -1,0 +1,24 @@
+.pause {
+  width: 60px;
+  height: 60px;
+}
+
+.pause:hover {
+  cursor: pointer;
+}
+
+.pause path {
+  color: black;
+  transition: 0.1s;
+}
+.pause:hover path {
+  color: white;
+}
+
+.pause rect {
+  transition: 0.1s;
+}
+
+.pause:hover rect {
+  color: #71c6ff;
+}

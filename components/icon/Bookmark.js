@@ -1,16 +1,19 @@
 import React from "react";
 
-function Bookmark() {
+function Bookmark(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
-      fill="none"
+      fill={props.active}
       viewBox="0 0 24 24"
+      className="cursor-pointer hover:text-blue"
+      onClick={props.onClick}
     >
       <path
-        stroke="#fff"
+        className={props.color}
+        stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="2"

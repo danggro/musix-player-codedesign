@@ -1,0 +1,23 @@
+.play {
+  width: 60px;
+  height: 60px;
+}
+.play:hover {
+  cursor: pointer;
+}
+.play path {
+  color: black;
+  transition: 0.1s;
+}
+
+.play:hover path {
+  color: white;
+}
+
+.play rect {
+  transition: 0.1s;
+}
+
+.play:hover rect {
+  color: #71c6ff;
+}

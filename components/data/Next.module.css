@@ -1,0 +1,10 @@
+.next {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.2s;
+}
+
+.next:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
