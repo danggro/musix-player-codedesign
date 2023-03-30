@@ -214,7 +214,7 @@ export default function Preview() {
               {`)`}
             </p>
             <h3 className="sm:text-[32px] text-xl sm:mb-6 sm:mt-2">{title}</h3>
-            <div className="hidden sm:block">
+            <div className="hidden overflow-hidden sm:block">
               <Progress
                 value={slider}
                 onChange={(e) => {
@@ -331,7 +331,7 @@ export default function Preview() {
               <Speaker />
             </div>
             <div
-              className={`absolute transition-all bottom-1  -right-2 ${
+              className={`absolute transition-all -bottom-1  right-0 ${
                 setHidvolBot ? "opacity-100 scale-100" : "opacity-0 scale-0 "
               }`}
             >
